@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <main className="h-screen bg-slate-300 flex items-center justify-center">
-      <div className="card max-w-[18rem] w-full bg-white shadow-outline flex items-center p-4 text-center">
+    <main className="h-screen bg-slate-300 flex items-center justify-center px-4">
+      <div className="card max-w-[18rem] w-full bg-white shadow-outline flex flex-col items-center p-4 text-center">
         <img src="/images/image-qr-code.png" alt="Code" className="w-full aspect-square rounded mb-4" />
         <h1 className="text-slate-900 font-outfit-regular font-bold text-xl px-3">
           Improve your front-end skills by building projects
